@@ -1,0 +1,395 @@
+/*
+Générique
+*/
+body{
+    font-family: 'Cabin Sketch', cursive;
+    background-color: #fff;
+    color: #000;
+
+
+}
+/*
+.nav{
+   z-index: 999;
+
+   nav {
+   	line-height: 15vh;
+   	background-color: transparent;
+   	width: 100%;
+
+      ul {
+      	list-style: none;
+       	text-align: center;
+      	margin: 0;
+      	padding: 0;
+      	height: 15vh;
+
+          li {
+          	display: inline-block;
+
+              a {
+                text-decoration: none;
+                margin: 0 5vh;
+                font-size: 2.5vh;
+                font-weight: lighter;
+                text-align: center;
+              }
+
+              a:link, a:visited, a:active {
+                color: #000;
+              }
+
+              a:hover, a:focus {
+              border-bottom: 0.3vh #525252 solid;
+              }
+
+              a#current{
+                color: #525252;
+                border-bottom: 0.3vh #525252 solid;
+              }
+
+              a#current:hover{
+                color: #525252;
+              }
+          }
+      }
+   }
+}*/
+
+.footer{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 100%;
+    border-top: 0.2vh solid #ababab;
+
+    .col-md-2{
+     line-height: 15vh;
+
+      .logo_footer{
+        width: 10vh ;
+        height: 10vh ;
+      }
+    }
+
+    #right_logo_footer{
+      text-align: right;
+       line-height: 15vh;
+
+       .logo_footer{
+         width: 10vh ;
+         height: 10vh ;
+       }
+    }
+
+    .col-md-8{
+        text-align: center;
+        margin: auto;
+
+        .footerCenter{
+         line-height: 15vh;
+         background-color: transparent;
+         text-align: center;
+           p{
+             font-size:28px;
+           }
+        }
+    }
+}
+
+.page-homepage{
+
+    .header{
+      
+      margin-bottom: 8vh;
+        .col-md-12{
+          text-align: center;
+
+            #logo{
+                margin-bottom: 4vh;
+                width: 75vh;
+                height: 75vh ;
+            }
+        }
+
+        .pageTitle{
+            text-align: center;
+
+            h1{
+                color: #000;
+                font-family: 'Cabin Sketch', cursive;
+                font-size: 9vh;
+            }
+        }
+    }
+
+    .introduction{
+
+            p{
+                font-size: 26px;
+
+                a{
+                    color: #000;
+                }
+            }
+
+            .connexion{
+              text-align: center;
+
+
+              .tab {
+                  overflow: hidden;
+                  color: #000;
+                  button {
+                      background-color: rgb(194, 208, 255);
+                      border: 0.1vh solid #000;
+                      border-radius: 2vh 0 2vh 0;
+                      cursor: pointer;
+                      width: 12vh ;
+                      height: 6vh;
+                      transition: 0.3s;
+                      font-size: 17px;
+                      margin: 0 8px 0 8px
+                  }
+                  button:hover {
+                      background-color: rgb(156, 178, 255);
+                      border-radius: 0 3vh 0 3vh;
+                  }
+                  button.active {
+                      background-color: rgb(226, 232, 255);
+                      border-radius: 0 2vh 0 2vh;
+                  }
+              }
+
+              .col-md-4{
+                text-align: center;
+                padding: 0 5em;
+
+                form{
+                  border: 0.1vh solid #000;
+                  border-radius: 32px;
+                  width: 100%;
+                  padding: 2em 0;
+                }
+              }
+            }
+    }
+
+    .alert{
+      width: 100%;
+      display: inline-block;
+      text-align: center;
+
+      .col-md-8 {
+        text-align: center;
+
+        p{
+          text-align: center;
+          margin: 0.3vh 0 0 0;
+          color: #000;
+          }
+      }
+
+      .col-md-2{
+        color: #000;
+        text-align: right;
+      }
+
+    }
+}
+.page-session{
+
+  .gameBackground{
+    height: 100vh;
+    .textAccueil{
+      background-color: rgb(251, 215, 191);
+      text-align: center;
+      border: 1px solid black;
+      border-radius: 1vh;
+      width: 40vh;
+      margin-top: 5vh;
+      margin-left: 5vh
+    }
+    .deconnexion{
+      input{
+          float: right;
+          background-color: rgb(251, 215, 191);
+          text-align: center;
+          border: 1px solid black;
+          border-radius: 1vh;
+          width: 20vh;
+          margin-top: -3vh;
+          margin-right: 5vh
+      }
+    }
+    .chat{
+      margin-left: 1.5vh;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      .displayOrNotChat{
+        .row{
+          h1{
+            margin-left: 2vh;
+          }
+          .col-md-5{
+            border-radius: 1vh 1vh 0 0  ;
+            background-color: rgb(251, 215, 191);
+            width: 47.3vh;
+            border: 1px solid rgb(251, 215, 191);
+            display: inline-block;
+            button{
+              background-color: white;
+              padding: 13px  13px 0 13px;
+              border-radius: 16px;
+              float: right;
+              margin-right: 1vh
+            }
+          }
+        }
+      }
+      .chatInput{
+
+        .col-md-5{
+          width: 47.3vh;
+          background-color: rgb(232, 122, 51);
+          display: inline-block;
+          vertical-align: middle;
+          height: 40px;
+
+          .col-md-2{
+            margin-top: 10px;
+
+            p{
+              margin: 0;
+            }
+
+            input{
+              height:25px
+            }
+
+          }
+
+          .col-md-8{
+            line-height: 30px;
+
+            input{
+              margin-top: 2px;
+              width: 100%
+            }
+          }
+        }
+      }
+      .chatOutput{
+        .col-md-5{
+          width: 47.3vh;
+          background-color: rgb(251, 215, 191);
+          display: inline-block;
+          vertical-align: middle;
+          height: 45vh;
+          overflow-y: scroll;
+          word-wrap:break-word;
+          #messages{
+            margin-top: 1vh
+          }
+        }
+      }
+    }
+    .game{
+      position: absolute;
+      left: 45.7vh;
+      top: 0;
+      .gameDisplay{
+        width: 103.6vh;
+        height: 85vh;
+        .frame{
+          margin: auto;
+          margin-top: 9vh;
+          width: 80vh;
+          height: 70vh;
+          border: 1px solid black;
+          img{
+            width: 79.8vh;
+            height: 69.8vh;
+          }
+        }
+      }
+      .question{
+        margin-top: 2vh;
+        font-size: 28px;
+        text-align: center;
+      }
+      .enterChoices{
+        display: inline-block;
+        #answer{
+          border-radius: 1vh;
+          margin: 1vh 33vh ;
+          border: 1px solid black;
+          font-size: 28px;
+          text-align: center;
+          width: 40vh;
+          height: 7vh;
+        }
+        #sendAnswer{
+          margin: 0 50vh ;
+        }
+      }
+    }
+    .points{
+      margin-right: 1.5vh;
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      float: right;
+      .displayOrNotPoint{
+        float: right;
+        .row{
+          h1{
+          }
+          .col-md-5{
+            float: right;
+            border-radius: 1vh 1vh 0 0  ;
+            background-color: rgb(251, 215, 191);
+            width: 47.3vh;
+            border: 1px solid rgb(251, 215, 191);
+            display: inline-block;
+            button{
+              background-color: white;
+              padding: 13px  13px 0 13px;
+              border-radius: 16px;
+              float: left;
+              margin-right: 1vh
+            }
+          }
+        }
+      }
+      .pointOutput{
+        .col-md-5{
+          float: right;
+          width: 47.3vh;
+          background-color: rgb(251, 215, 191);
+          display: inline-block;
+          vertical-align: middle;
+          height: 45vh;
+          overflow-y: scroll;
+          word-wrap:break-word;
+          #points{
+            margin-top: 1vh
+          }
+        }
+      }
+      .personalPoint{
+
+        .col-md-5{
+          width: 47.3vh;
+          background-color: rgb(232, 122, 51);
+          display: inline-block;
+          vertical-align: middle;
+          height: 40px;
+          p{
+            margin-top: 10px
+          }
+        }
+      }
+    }
+  }
+}

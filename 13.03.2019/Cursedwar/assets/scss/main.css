@@ -1,0 +1,282 @@
+@charset "UTF-8";
+/*
+Générique
+*/
+body {
+  font-family: 'Cabin Sketch', cursive;
+  background-color: #fff;
+  color: #000; }
+
+/*
+.nav{
+   z-index: 999;
+
+   nav {
+   	line-height: 15vh;
+   	background-color: transparent;
+   	width: 100%;
+
+      ul {
+      	list-style: none;
+       	text-align: center;
+      	margin: 0;
+      	padding: 0;
+      	height: 15vh;
+
+          li {
+          	display: inline-block;
+
+              a {
+                text-decoration: none;
+                margin: 0 5vh;
+                font-size: 2.5vh;
+                font-weight: lighter;
+                text-align: center;
+              }
+
+              a:link, a:visited, a:active {
+                color: #000;
+              }
+
+              a:hover, a:focus {
+              border-bottom: 0.3vh #525252 solid;
+              }
+
+              a#current{
+                color: #525252;
+                border-bottom: 0.3vh #525252 solid;
+              }
+
+              a#current:hover{
+                color: #525252;
+              }
+          }
+      }
+   }
+}*/
+.footer {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  width: 100%;
+  border-top: 0.2vh solid #ababab; }
+  .footer .col-md-2 {
+    line-height: 15vh; }
+    .footer .col-md-2 .logo_footer {
+      width: 10vh;
+      height: 10vh; }
+  .footer #right_logo_footer {
+    text-align: right;
+    line-height: 15vh; }
+    .footer #right_logo_footer .logo_footer {
+      width: 10vh;
+      height: 10vh; }
+  .footer .col-md-8 {
+    text-align: center;
+    margin: auto; }
+    .footer .col-md-8 .footerCenter {
+      line-height: 15vh;
+      background-color: transparent;
+      text-align: center; }
+      .footer .col-md-8 .footerCenter p {
+        font-size: 28px; }
+
+.page-homepage .header {
+  margin-bottom: 8vh; }
+  .page-homepage .header .col-md-12 {
+    text-align: center; }
+    .page-homepage .header .col-md-12 #logo {
+      margin-bottom: 4vh;
+      width: 75vh;
+      height: 75vh; }
+  .page-homepage .header .pageTitle {
+    text-align: center; }
+    .page-homepage .header .pageTitle h1 {
+      color: #000;
+      font-family: 'Cabin Sketch', cursive;
+      font-size: 9vh; }
+.page-homepage .introduction p {
+  font-size: 26px; }
+  .page-homepage .introduction p a {
+    color: #000; }
+.page-homepage .introduction .connexion {
+  text-align: center; }
+  .page-homepage .introduction .connexion .tab {
+    overflow: hidden;
+    color: #000; }
+    .page-homepage .introduction .connexion .tab button {
+      background-color: #c2d0ff;
+      border: 0.1vh solid #000;
+      border-radius: 2vh 0 2vh 0;
+      cursor: pointer;
+      width: 12vh;
+      height: 6vh;
+      transition: 0.3s;
+      font-size: 17px;
+      margin: 0 8px 0 8px; }
+    .page-homepage .introduction .connexion .tab button:hover {
+      background-color: #9cb2ff;
+      border-radius: 0 3vh 0 3vh; }
+    .page-homepage .introduction .connexion .tab button.active {
+      background-color: #e2e8ff;
+      border-radius: 0 2vh 0 2vh; }
+  .page-homepage .introduction .connexion .col-md-4 {
+    text-align: center;
+    padding: 0 5em; }
+    .page-homepage .introduction .connexion .col-md-4 form {
+      border: 0.1vh solid #000;
+      border-radius: 32px;
+      width: 100%;
+      padding: 2em 0; }
+.page-homepage .alert {
+  width: 100%;
+  display: inline-block;
+  text-align: center; }
+  .page-homepage .alert .col-md-8 {
+    text-align: center; }
+    .page-homepage .alert .col-md-8 p {
+      text-align: center;
+      margin: 0.3vh 0 0 0;
+      color: #000; }
+  .page-homepage .alert .col-md-2 {
+    color: #000;
+    text-align: right; }
+
+.page-session .gameBackground {
+  height: 100vh; }
+  .page-session .gameBackground .textAccueil {
+    background-color: #fbd7bf;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 1vh;
+    width: 40vh;
+    margin-top: 5vh;
+    margin-left: 5vh; }
+  .page-session .gameBackground .deconnexion input {
+    float: right;
+    background-color: #fbd7bf;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 1vh;
+    width: 20vh;
+    margin-top: -3vh;
+    margin-right: 5vh; }
+  .page-session .gameBackground .chat {
+    margin-left: 1.5vh;
+    position: absolute;
+    bottom: 0;
+    left: 0; }
+    .page-session .gameBackground .chat .displayOrNotChat .row h1 {
+      margin-left: 2vh; }
+    .page-session .gameBackground .chat .displayOrNotChat .row .col-md-5 {
+      border-radius: 1vh 1vh 0 0;
+      background-color: #fbd7bf;
+      width: 47.3vh;
+      border: 1px solid #fbd7bf;
+      display: inline-block; }
+      .page-session .gameBackground .chat .displayOrNotChat .row .col-md-5 button {
+        background-color: white;
+        padding: 13px  13px 0 13px;
+        border-radius: 16px;
+        float: right;
+        margin-right: 1vh; }
+    .page-session .gameBackground .chat .chatInput .col-md-5 {
+      width: 47.3vh;
+      background-color: #e87a33;
+      display: inline-block;
+      vertical-align: middle;
+      height: 40px; }
+      .page-session .gameBackground .chat .chatInput .col-md-5 .col-md-2 {
+        margin-top: 10px; }
+        .page-session .gameBackground .chat .chatInput .col-md-5 .col-md-2 p {
+          margin: 0; }
+        .page-session .gameBackground .chat .chatInput .col-md-5 .col-md-2 input {
+          height: 25px; }
+      .page-session .gameBackground .chat .chatInput .col-md-5 .col-md-8 {
+        line-height: 30px; }
+        .page-session .gameBackground .chat .chatInput .col-md-5 .col-md-8 input {
+          margin-top: 2px;
+          width: 100%; }
+    .page-session .gameBackground .chat .chatOutput .col-md-5 {
+      width: 47.3vh;
+      background-color: #fbd7bf;
+      display: inline-block;
+      vertical-align: middle;
+      height: 45vh;
+      overflow-y: scroll;
+      word-wrap: break-word; }
+      .page-session .gameBackground .chat .chatOutput .col-md-5 #messages {
+        margin-top: 1vh; }
+  .page-session .gameBackground .game {
+    position: absolute;
+    left: 45.7vh;
+    top: 0; }
+    .page-session .gameBackground .game .gameDisplay {
+      width: 103.6vh;
+      height: 85vh; }
+      .page-session .gameBackground .game .gameDisplay .frame {
+        margin: auto;
+        margin-top: 9vh;
+        width: 80vh;
+        height: 70vh;
+        border: 1px solid black; }
+        .page-session .gameBackground .game .gameDisplay .frame img {
+          width: 79.8vh;
+          height: 69.8vh; }
+    .page-session .gameBackground .game .question {
+      margin-top: 2vh;
+      font-size: 28px;
+      text-align: center; }
+    .page-session .gameBackground .game .enterChoices {
+      display: inline-block; }
+      .page-session .gameBackground .game .enterChoices #answer {
+        border-radius: 1vh;
+        margin: 1vh 33vh;
+        border: 1px solid black;
+        font-size: 28px;
+        text-align: center;
+        width: 40vh;
+        height: 7vh; }
+      .page-session .gameBackground .game .enterChoices #sendAnswer {
+        margin: 0 50vh; }
+  .page-session .gameBackground .points {
+    margin-right: 1.5vh;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    float: right; }
+    .page-session .gameBackground .points .displayOrNotPoint {
+      float: right; }
+      .page-session .gameBackground .points .displayOrNotPoint .row .col-md-5 {
+        float: right;
+        border-radius: 1vh 1vh 0 0;
+        background-color: #fbd7bf;
+        width: 47.3vh;
+        border: 1px solid #fbd7bf;
+        display: inline-block; }
+        .page-session .gameBackground .points .displayOrNotPoint .row .col-md-5 button {
+          background-color: white;
+          padding: 13px  13px 0 13px;
+          border-radius: 16px;
+          float: left;
+          margin-right: 1vh; }
+    .page-session .gameBackground .points .pointOutput .col-md-5 {
+      float: right;
+      width: 47.3vh;
+      background-color: #fbd7bf;
+      display: inline-block;
+      vertical-align: middle;
+      height: 45vh;
+      overflow-y: scroll;
+      word-wrap: break-word; }
+      .page-session .gameBackground .points .pointOutput .col-md-5 #points {
+        margin-top: 1vh; }
+    .page-session .gameBackground .points .personalPoint .col-md-5 {
+      width: 47.3vh;
+      background-color: #e87a33;
+      display: inline-block;
+      vertical-align: middle;
+      height: 40px; }
+      .page-session .gameBackground .points .personalPoint .col-md-5 p {
+        margin-top: 10px; }
+
+/*# sourceMappingURL=main.css.map */
