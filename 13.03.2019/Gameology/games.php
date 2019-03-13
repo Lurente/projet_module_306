@@ -22,7 +22,7 @@
     </head>
     <body>
       <!--mainPage-->
-        <div class="page-homepage">
+        <div class="page-games">
           <!--header-->
             <div class="header">
                 <div class="container">
@@ -69,18 +69,26 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-md-12">
-
+                            <p>All Them Games :</p><br>
                         </div>
                     </div>
                 </div>
             </div>
           <!--/introduction-->
           <!--content-->
-            <div class="content">
+            <div class="gameList">
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-12">
-
+                        <div class="col-md-4">
+                          <a href="../Cursedwar/index.php">
+                            <img src="../Cursedwar/images/doodle_war_logo.png" alt="">
+                          </a>
+                        </div>
+                        <div class="col-md-4">
+                          <img src="images/gallery_7.jpg" alt="">
+                        </div>
+                        <div class="col-md-4">
+                          <img src="images/gallery_7.jpg" alt="">
                         </div>
                     </div>
                 </div>

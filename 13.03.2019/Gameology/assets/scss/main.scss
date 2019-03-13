@@ -123,3 +123,39 @@ body{
         }
     }
 }
+.page-games{
+    .header{
+        .pageTitle{
+            text-align: center;
+            h1{
+                color: #ffffff;
+                font-family: 'Russo One', sans-serif;
+                font-size: 9vh;
+            }
+        }
+        .col-md-12{
+          text-align: center;
+            #logo{
+                width: 75vh;
+                height: 75vh ;
+            }
+        }
+    }
+    .introduction{
+        .col-md-12{
+            p{
+                font-size: 26px;
+            }
+        }
+    }
+    .gameList{
+      .row{
+      display: inline;
+        .col-md-4{
+          img{
+            width: 100%;
+          }
+        }
+      }
+    }
+}
